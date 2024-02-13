@@ -1,0 +1,5 @@
+username      | password      | Role
+admin           admin@789!      superuser
+anotheruser     admin@3369      Manager
+newuser         admin@3369      DeliveryCrew
+newuser1      | admin@3369      Normal Customer
