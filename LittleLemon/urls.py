@@ -17,9 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('api/', include('LittleLemonAPI.urls')),
+#     path('auth/', include('djoser.urls')),
+#     path('auth/', include('djoser.urls.authtoken')),
+# ]
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('LittleLemonAPI.urls')),
+    path('api/',include('LittleLemonAPI_Solution.urls')),
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
 ]
